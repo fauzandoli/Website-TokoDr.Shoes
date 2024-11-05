@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet" />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home">Dr Shoes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('home')">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('about')">TENTANG TOKO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('sop')">PERATURAN TOKO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('pelayanan')">PELAYANAN TOKO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('pricelist')">PRICE LIST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('testimoni')">TESTIMONI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showSection('contact')">CUCI SEKARANG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    <!-- Navbar end -->
+
+    <!-- Carousel for Logo -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            /* Gaya tambahan jika perlu */
+        </style>
+    </head>
+    <body>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="display: block;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="img/11.jpeg.jpeg" class="d-block mx-auto" style="max-width: 50%; height: auto;" alt="Slide 1">
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="img/7.jpeg.jpg" class="d-block mx-auto" style="max-width: 50%; height: auto;" alt="Slide 2">
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="img/66.jpeg.jpeg" class="d-block mx-auto" style="max-width: 40%; height: auto;" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" style="display: none;">
+      <div class="center">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+            <h2 class="center-title" style="font-family: 'Arial', sans-serif; font-size: 30px; color: #ffffff; text-align: center; text-transform: uppercase; letter-spacing: 2px; margin: 0; padding: 12px; background: linear-gradient(135deg, #d518ed, #1b92d2); border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); position: relative;">
+                SELAMAT DATANG DI TOKO Dr Shoes
+            </h2>
+            <span style="display: block; width: 100%; height: 4px; background-color: #ffffff; margin-top: 3px; max-width: 80%;"></span>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000" style="display: block;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="img/11.jpeg.jpeg" class="d-block mx-auto" style="max-width: 38%; height: auto;" alt="Slide 1">
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="img/7.jpeg.jpg" class="d-block mx-auto" style="max-width: 38%; height: auto;" alt="Slide 2">
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="img/66.jpeg.jpeg" class="d-block mx-auto" style="max-width: 38%; height: auto;" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        
+        <!-- Sertakan Bootstrap CSS dan JS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        
+    </section>
+  
+    <!-- About Section -->
+    <section id="about" class="about" style="display: none;">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+            <h2 class="center-title" style="font-family: 'Arial', sans-serif; font-size: 30px; color: #ffffff; text-align: center; text-transform: uppercase; letter-spacing: 2px; margin: 0; padding: 12px; background: linear-gradient(135deg, #d518ed, #1b92d2); border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); position: relative;">
+                TENTANG TOKO Dr Shoes
+            </h2>
+            <span style="display: block; width: 100%; height: 4px; background-color: #ffffff; margin-top: 3px; max-width: 80%;"></span>
+        </div>
+        <div class="center">
+            <p>Toko Dr Shoes berdiri pada 10 Oktober 2022,</p>
+            <p>Alamat Toko Dr Shoes jl.Peruri DSN. Simargalih Ds.Parungmulya</p>
+            <p>Rt.001/006 Kec. Ciampel Kab. Karawang 41363</p>
+            <a href="https://maps.app.goo.gl/r8Bzdjr2wLd46WBe8" target="_blank">Link Maps Lokasi</a>
+        </div>
+    </section>
+
+    <!-- peraturan Section -->
+    <section id="sop" style="display: none;">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+            <h2 class="center-title" style="font-family: 'Arial', sans-serif; font-size: 30px; color: #ffffff; text-align: center; text-transform: uppercase; letter-spacing: 2px; margin: 0; padding: 12px; background: linear-gradient(135deg, #d518ed, #1b92d2); border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); position: relative;">
+                INFORMASI Dr Shoes
+            </h2>
+            <span style="display: block; width: 100%; height: 4px; background-color: #ffffff; margin-top: 30px; max-width: 90%;"></span>
+        </div>
+        <table style="width: 80%; max-width: 800px; border-collapse: collapse; margin: 20px auto;">
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;" colspan="2"><strong>KARYAWAN</strong></td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;" colspan="2"><strong>GAJI KARYAWAN</strong></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">1.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Tidak ada batasan umur</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">1.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Gaji karyawan menyesuaikan pendapatan toko</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">2.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Patuh terhadap organisasi</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">2.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Maksimal 1,2 jt per bulan</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">3.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Menjalankan pekerjaan sesuai SOP</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;"></td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;"></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">4.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Tekun dan giat bekerja</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;"></td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;"></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Menggunakan APD (sarung tangan dan apron)</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;"></td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;"></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">6.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Komunikasi yang baik dengan pelanggan</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;"></td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;"></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">7.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Memberikan pelayanan dan hasil yang baik kepada pelanggan</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;"></td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;"></td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    
+    <!-- pelayanan Section -->
+    <section id="pelayanan" style="display: none;">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+            <h2 class="center-title" style="font-family: 'Arial', sans-serif; font-size: 30px; color: #ffffff; text-align: center; text-transform: uppercase; letter-spacing: 2px; margin: 0; padding: 12px; background: linear-gradient(135deg, #d518ed, #1b92d2); border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); position: relative;">
+                PELAYANAN TOKO
+            </h2>
+            <span style="display: block; width: 100%; height: 4px; background-color: #ffffff; margin-top: 3px; max-width: 80%;"></span>
+        </div>
+        <table style="width: 80%; max-width: 800px; border-collapse: collapse; margin: 20px auto;">
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;" colspan="2"><strong>PELAYANAN Dr Shoes</strong></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">1.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Buka toko jam 10.00 - 21.00 WIB</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">2.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Free pick up dan delivery max 8km</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">3.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Harga terjangkau</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">4.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">Jaminan hasil yang memuaskan</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: center;">5.</td>
+                <td style="border: 1px solid #ccc; padding: 10px; text-align: left;">pemesanan melalui media online seperti whatsapp dan instagram</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <!-- Price List Section -->
+    <section id="pricelist" class="about" style="display: none;">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+            <h2 class="center-title" style="font-family: 'Arial', sans-serif; font-size: 30px; color: #ffffff; text-align: center; text-transform: uppercase; letter-spacing: 2px; margin: 0; padding: 12px; background: linear-gradient(135deg, #d518ed, #1b92d2); border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); position: relative;">
+                PRICE LIST
+            </h2>
+            <span style="display: block; width: 100%; height: 4px; background-color: #ffffff; margin-top: 3px; max-width: 80%;"></span>
+        </div>
+        <div class="center">
+            <img src="img/5.jpeg.jpeg" alt="pricelist" style="max-width: 100%; height: auto; width: 14cm;"/>
+        </div>        
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="menu" style="display: none;">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+            <h2 class="center-title" style="font-family: 'Arial', sans-serif; font-size: 30px; color: #ffffff; text-align: center; text-transform: uppercase; letter-spacing: 2px; margin: 0; padding: 12px; background: linear-gradient(135deg, #d518ed, #1b92d2); border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); position: relative;">
+                TESTIMONI
+            </h2>
+            <span style="display: block; width: 100%; height: 4px; background-color: #ffffff; margin-top: 3px; max-width: 80%;"></span>
+        </div>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column align-items-center">
+                        <h3 class="menu-card-title">TESTMON 1</h3>
+                        <img src="img/2.jpeg.jpeg" alt="BAJU 1" class="menu-card-img" style="max-width: 80%; height: auto; width: 12cm;" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <h3 class="menu-card-title">TESTMON 2</h3>
+                        <img src="img/3.jpeg.jpeg" alt="BAJU 2" class="menu-card-img" style="max-width: 80%; height: auto; width: 12cm;" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center">
+                        <h3 class="menu-card-title">TESTMON 3</h3>
+                        <img src="img/4.jpeg.jpeg" alt="BAJU 3" class="menu-card-img" style="max-width: 80%; height: auto; width: 12cm;" />
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>        
+  </section>
+
+    <!-- Contact Section -->  
+    <section id="contact" class="menu-card" style="display: none; position: relative; height: 50vh;">
+        <div class="lower" style="display: flex; justify-content: center; align-items: flex-end; flex-wrap: wrap; padding: 20px; background-color: #f8f8f8; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);">
+            <div class="product-card" style="text-align: center; margin: 15px; padding: 10px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); transition: transform 0.2s;">
+                <img src="img/wa.jpeg" alt="WhatsApp" class="card-image" style="max-width: 40px; height: auto;">
+                <h1 style="font-size: 18px; color: #1b92d2; margin-top: 10px;">
+                    <a href="https://wa.me/+6289644422003" target="_blank" style="text-decoration: none; color: inherit;">Link Whatsapp</a>
+                </h1>
+            </div>
+            <div class="product-card" style="text-align: center; margin: 15px; padding: 10px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); transition: transform 0.2s;">
+                <img src="img/ig.jpeg" alt="Instagram" class="card-image" style="max-width: 40px; height: auto;">
+                <h1 style="font-size: 18px; color: #1b92d2; margin-top: 10px;">
+                    <a href="https://www.instagram.com/dr.shoes_krw" target="_blank" style="text-decoration: none; color: inherit;">Link Instagram</a>
+                </h1>
+            </div>
+        </div>        
+    </section>    
+
+    <!-- Footer -->
+    <footer class="footer-navbar">
+        <div class="footer-content">
+            <!-- Konten footer bisa ditambahkan di sini -->
+        </div>
+        <div class="footer-bottom">
+            <p>Kelompok 6 Toko Dr Shoes. &copy;2024</p>
+        </div>
+    </footer>
+    
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- JavaScript to handle section display -->
+    <script>
+        document.querySelectorAll('.navbar-nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                // Sembunyikan carousel setelah klik
+                document.getElementById('carouselExampleIndicators').style.display = 'none';
+                // Tampilkan bagian yang sesuai
+                const targetId = this.getAttribute('onclick').match(/'(.+?)'/)[1];
+                showSection(targetId);
+            });
+        });
+
+        function showSection(section) {
+            // Sembunyikan semua section
+            document.querySelectorAll('section').forEach(function (sec) {
+                sec.style.display = 'none';
+            });
+            // Tampilkan section yang dipilih
+            document.getElementById(section).style.display = 'block';
+        }
+        
+    </script>
+
+    <!-- Bootstrap JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">

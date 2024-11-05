@@ -1,0 +1,147 @@
+
+.navbar-custom {
+  background-color: #d116d4; /* Warna pink */
+}
+.navbar-custom .nav-link {
+  color: black; /* Warna font hitam */
+  font-weight: bold; /* Font tebal */
+}
+.navbar-custom .nav-link:hover {
+  color: #333; /* Warna saat hover */
+}
+
+.center-title {
+  margin: 0 auto; /* Margin otomatis di kiri dan kanan */
+  text-align: center; /* Menyelaraskan teks ke tengah */
+  width: fit-content; /* Mengatur lebar sesuai konten */
+}
+
+.center {
+  text-align: center; /* Menyelaraskan teks (dan gambar) ke tengah */
+}
+
+.btn {
+  background-color: #b81ad0; /* Warna latar belakang biru */
+  color: rgb(181, 29, 204); /* Warna teks putih */
+  padding: 15px 32px; /* Padding di dalam tombol */
+  text-align: center; /* Menyelaraskan teks di tengah */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  display: inline-block; /* Mengatur elemen menjadi inline-block */
+  font-size: 16px; /* Ukuran font */
+  margin: 4px 2px; /* Margin di sekitar tombol */
+  cursor: pointer; /* Kursor menjadi pointer saat hover */
+  border: none; /* Menghilangkan border default */
+  border-radius: 5px; /* Membuat sudut tombol melengkung */
+  transition: background-color 0.3s ease; /* Transisi saat hover */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Warna saat hover */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}
+
+html, body {
+  height: 100%; /* Pastikan body dan html memiliki tinggi 100% */
+  margin: 0;    /* Hilangkan margin default */
+}
+
+.footer-navbar {
+  position: fixed; /* Atur posisi footer agar tetap di bawah */
+  bottom: 0;      /* Letakkan footer di bagian bawah */
+  left: 0;        /* Biarkan dari sisi kiri */
+  right: 0;       /* Biarkan dari sisi kanan */
+  background-color: #161717; /* Warna latar belakang footer */
+  padding: 10px; /* Padding untuk footer */
+  text-align: center; /* Tengahakan teks */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.footer-bottom p {
+  margin: 0; /* Hilangkan margin pada paragraf */
+}
+
+.footer-content a:hover {
+  color: #ff5722; /* Warna saat hover */
+}
+
+.footer-bottom {
+  margin-top: 10px; /* Margin atas */
+  text-align: center; /* Menyelaraskan teks di tengah */
+  font-size: 14px; /* Ukuran font */
+}
+
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-15px);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Menggunakan Flexbox */
+  flex-direction: column; /* Mengatur elemen menjadi kolom */
+  min-height: 100vh; /* Mengatur tinggi minimal body */
+}
+
+.content {
+  flex: 1; /* Mengambil ruang yang tersedia */
+  padding: 20px;
+}
+
+.footer-navbar {
+  background-color: #bb10ce; /* Warna latar belakang footer */
+  color: white; /* Warna teks */
+  display: flex; /* Menggunakan Flexbox */
+  flex-direction: column; /* Mengatur elemen menjadi kolom */
+  align-items: center; /* Menyelaraskan konten di tengah */
+  padding: 20px 0; /* Padding atas dan bawah */
+  width: 100%; /* Lebar 100% dari halaman */
+}
+
+.footer-content {
+  display: flex; /* Menggunakan Flexbox */
+  justify-content: center; /* Menyelaraskan tautan secara horizontal */
+  gap: 20px; /* Jarak antar tautan */
+}
+
+.footer-content a {
+  color: white; /* Warna teks tautan */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  transition: color 0.3s ease; /* Transisi saat hover */
+}
+
+.footer-content a:hover {
+  color: #cc1bcc; /* Warna saat hover */
+}
+
+.footer-bottom {
+  margin-top: 10px; /* Margin atas */
+  text-align: center; /* Menyelaraskan teks di tengah */
+  font-size: 14px; /* Ukuran font */
+}
+.carousel-inner img {
+  max-width: 100%; /* Memastikan gambar tidak melampaui lebar carousel */
+  height: auto; /* Memastikan tinggi proporsional */
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center; /* Memusatkan item di dalam carousel */
+  align-items: center; /* Memastikan gambar terpusat secara vertikal */
+}
